@@ -1,92 +1,29 @@
-// REVREX Phase 4: botid/server を eager import せず、env gate 内で dynamic import に変更。
-// これにより VPS ビルド時に botid package が解決できなくても build が通る。
+// REVREX Phase 5: Vercel BotID (`botid/server`) は VPS で解決不能なため完全に no-op 化。
+// build-time の静的解析 (Next.js webpack) が `botid/server` の dynamic import を解決しようとして
+// fail していたため、import 自体を除去する。bot 対策は Cloudflare Worker (Turnstile / WAF) が代替。
 import type { IncomingHttpHeaders } from "node:http";
 
 import type { EventTypeRepository } from "@calcom/features/eventtypes/repositories/eventTypeRepository";
 import type { FeaturesRepository } from "@calcom/features/flags/features.repository";
-import { ErrorCode } from "@calcom/lib/errorCodes";
-import { ErrorWithCode } from "@calcom/lib/errors";
-import { HttpError } from "@calcom/lib/http-error";
-import logger from "@calcom/lib/logger";
 
 interface BotDetectionConfig {
   eventTypeId?: number;
   headers: IncomingHttpHeaders;
 }
 
-const log = logger.getSubLogger({ prefix: ["[BotDetectionService]"] });
-
 export class BotDetectionService {
   constructor(
     private featuresRepository: FeaturesRepository,
     private eventTypeRepository: EventTypeRepository
-  ) {}
-
-  private instanceHasBotIdEnabled() {
-    return process.env.NEXT_PUBLIC_VERCEL_USE_BOTID_IN_BOOKER === "1";
+  ) {
+    // Unused on REVREX deployment, but kept on the signature for API compatibility
+    // with upstream cal.diy callers (e.g. apps/web/pages/api/book/event.ts).
+    void this.featuresRepository;
+    void this.eventTypeRepository;
   }
 
-  async checkBotDetection(config: BotDetectionConfig): Promise<void> {
-    if (!this.instanceHasBotIdEnabled()) return;
-
-    const { eventTypeId, headers } = config;
-
-    // If no eventTypeId provided, skip bot detection
-    if (!eventTypeId) {
-      return;
-    }
-
-    if (!Number.isInteger(eventTypeId) || eventTypeId <= 0) {
-      throw new ErrorWithCode(
-        ErrorCode.BadRequest,
-        `Invalid eventTypeId: ${eventTypeId}. Must be a positive integer.`
-      );
-    }
-
-    // Fetch only the teamId from the event type
-    const eventType = await this.eventTypeRepository.getTeamIdByEventTypeId({
-      id: eventTypeId,
-    });
-
-    // Only check for team events
-    if (!eventType?.teamId) {
-      return;
-    }
-
-    // Check if BotID feature is enabled for this team (also checks global scope - enabling on all teams)
-    const isBotIDEnabled = await this.featuresRepository.checkIfTeamHasFeature(
-      eventType.teamId,
-      "booker-botid"
-    );
-
-    if (!isBotIDEnabled) {
-      return;
-    }
-
-    // REVREX Phase 4: botid を dynamic import (env gate 通過時のみ load)。
-    const { checkBotId } = await import("botid/server");
-    const verification = await checkBotId({
-      advancedOptions: {
-        headers,
-      },
-    });
-
-    // Log verification results with detailed information
-    const verificationDetails = {
-      isBot: verification.isBot,
-      isHuman: verification.isHuman,
-      isVerifiedBot: verification.isVerifiedBot,
-      verifiedBotName: verification.verifiedBotName,
-      verifiedBotCategory: verification.verifiedBotCategory,
-      bypassed: verification.bypassed,
-      classificationReason: verification.classificationReason,
-      teamId: eventType.teamId,
-      eventTypeId,
-    };
-
-    if (verification.isBot) {
-      log.warn("Bot detected - blocking request", verificationDetails);
-      throw new HttpError({ statusCode: 403, message: "Access denied" });
-    }
+  async checkBotDetection(_config: BotDetectionConfig): Promise<void> {
+    // No-op: Vercel BotID is disabled on REVREX (Cloudflare Worker handles bot mitigation).
+    return;
   }
 }
