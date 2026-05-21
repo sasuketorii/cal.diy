@@ -1,14 +1,18 @@
 import process from "node:process";
 import { getCspHeader, getCspNonce } from "@lib/csp";
-import { get } from "@vercel/edge-config";
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
+// REVREX Phase 4: @vercel/edge-config を ConfigStore 抽象化に置換 (VPS では Redis backend を利用)。
+import { createConfigStore } from "@calcom/lib/config-store";
 
-const safeGet = async <T = any>(key: string): Promise<T | undefined> => {
+const configStore = createConfigStore();
+
+const safeGet = async <T = unknown>(key: string): Promise<T | undefined> => {
   try {
-    return get<T>(key);
+    const value = await configStore.get<T>(key);
+    return value ?? undefined;
   } catch (error) {
-    // Don't crash if EDGE_CONFIG env var is missing
+    // Don't crash if config backend is unreachable
   }
 };
 
