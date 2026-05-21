@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "purpose": "REV-C Phase 5: packages/lib 配下の Zod schema が throw する英語エラーメッセージの日本語訳を一括管理する。実際に getServerErrorFromUnknown / TRPC error mapping で翻訳キーとして利用するかは Phase 6 で判定。本ファイルは glossary 兼移行ターゲット。",
+    "source_locale": "en",
+    "target_locale": "ja",
+    "revrex_phase": "5"
+  },
+  "email_too_long": "メールアドレスが長すぎます",
+  "please_enter_at_least_one_character": "1文字以上入力してください",
+  "no_cloudflare_token_try_again": "Cloudflare トークンを取得できませんでした。もう一度お試しください",
+  "username_available": "このユーザー名は利用可能です",
+  "username_or_email_taken": "そのユーザー名またはメールアドレスは既に使用されています",
+  "premium_username": "これはプレミアムユーザー名です",
+  "unexpected_error_contact_support": "予期しないエラーが発生しました。サポートまでお問い合わせください",
+  "invalid_timezone": "タイムゾーンの形式が正しくありません。IANA タイムゾーン文字列を指定してください",
+  "something_went_wrong": "エラーが発生しました"
+}
