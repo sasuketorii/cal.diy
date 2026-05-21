@@ -1,4 +1,5 @@
-import { withBotId } from "botid/next/config";
+// REVREX Phase 4: botid/next/config を削除 (Vercel BotID は VPS で利用不可)。
+// 認証および bot 対策は Cloudflare Worker (Turnstile / WAF) が代替する。
 import { config as dotenvConfig } from "dotenv";
 import type { NextConfig } from "next";
 import type { RouteHas } from "next/dist/lib/load-custom-routes";
@@ -139,9 +140,8 @@ if (process.env.ANALYZE === "true") {
 
 plugins.push(withAxiom);
 
-if (process.env.NEXT_PUBLIC_VERCEL_USE_BOTID_IN_BOOKER === "1") {
-  plugins.push(withBotId);
-}
+// REVREX Phase 4: withBotId プラグインは削除 (Vercel BotID 非対応環境のため)。
+// NEXT_PUBLIC_VERCEL_USE_BOTID_IN_BOOKER は実質 no-op となる。
 
 interface OrgDomainMatcher {
   has: RouteHas[];

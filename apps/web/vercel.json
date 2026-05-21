@@ -1,33 +1,4 @@
 {
-  "crons": [
-    {
-      "path": "/api/cron/calendar-subscriptions",
-      "schedule": "*/5 * * * *"
-    },
-    {
-      "path": "/api/cron/calendar-subscriptions-cleanup",
-      "schedule": "0 3 * * *"
-    },
-    {
-      "path": "/api/cron/queuedFormResponseCleanup",
-      "schedule": "0 */12 * * *"
-    },
-    {
-      "path": "/api/tasks/cron",
-      "schedule": "* * * * *"
-    },
-    {
-      "path": "/api/tasks/cleanup",
-      "schedule": "0 0 * * *"
-    },
-    {
-      "path": "/api/cron/credentials",
-      "schedule": "*/5 * * * *"
-    },
-    {
-      "path": "/api/cron/selected-calendars",
-      "schedule": "*/5 * * * *"
-    }
-  ],
+  "_revrex_note": "REVREX Phase 4: Vercel crons removed. Scheduled jobs are migrated to VPS systemd timers and Cloudflare Cron Triggers (Phase 4.5 Worker). This file is kept as a minimal stub so the upstream rebase diff stays scoped.",
   "functions": {}
 }

@@ -1,4 +1,5 @@
-import { checkBotId } from "botid/server";
+// REVREX Phase 4: botid/server を eager import せず、env gate 内で dynamic import に変更。
+// これにより VPS ビルド時に botid package が解決できなくても build が通る。
 import type { IncomingHttpHeaders } from "node:http";
 
 import type { EventTypeRepository } from "@calcom/features/eventtypes/repositories/eventTypeRepository";
@@ -62,7 +63,8 @@ export class BotDetectionService {
       return;
     }
 
-    // Perform bot detection
+    // REVREX Phase 4: botid を dynamic import (env gate 通過時のみ load)。
+    const { checkBotId } = await import("botid/server");
     const verification = await checkBotId({
       advancedOptions: {
         headers,
