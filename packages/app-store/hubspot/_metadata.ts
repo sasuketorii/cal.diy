@@ -4,8 +4,7 @@ export const metadata = {
   name: "HubSpot CRM",
   // biome-ignore lint/correctness/noProcessGlobal: Server-only metadata evaluated at build time
   installed: !!process.env.HUBSPOT_CLIENT_ID,
-  description:
-    "HubSpot is a cloud-based CRM designed to help align sales and marketing teams, foster sales enablement, boost ROI and optimize your inbound marketing strategy to generate more, qualified leads.",
+  description: "HubSpot はクラウドベースの CRM で、営業とマーケティングの連携、セールスイネーブルメントの推進、ROI の向上、インバウンドマーケティング戦略の最適化により、より質の高いリードを多く獲得することを目的としています。",
   type: "hubspot_crm",
   variant: "crm",
   logo: "icon.svg",

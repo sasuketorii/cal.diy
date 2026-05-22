@@ -6,10 +6,12 @@
   "logo": "icon.svg",
   "url": "https://zapier.com/apps/calcom/integrations",
   "variant": "automation",
-  "categories": ["automation"],
+  "categories": [
+    "automation"
+  ],
   "publisher": "Cal.diy",
   "email": "help@cal.com",
-  "description": "Workflow automation for everyone. Use the Cal.diy Zapier app to automate your workflows when a booking is created, rescheduled, cancelled or when a meeting ends.",
+  "description": "誰でも使えるワークフロー自動化です。Cal.diy の Zapier アプリを使って、予約の作成・予約変更・キャンセル時、またはミーティング終了時にワークフローを自動化できます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app",

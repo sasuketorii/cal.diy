@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Outlook Calendar",
-  description:
-    "Microsoft Office 365 is a suite of apps that helps you stay connected with others and get things done. It includes but is not limited to Microsoft Word, PowerPoint, Excel, Teams, OneNote and OneDrive. Office 365 allows you to work remotely with others on a team and collaborate in an online environment. Both web versions and desktop/mobile applications are available.",
+  description: "Microsoft Office 365 は他者とつながり、仕事を進めるためのアプリ群です。Microsoft Word、PowerPoint、Excel、Teams、OneNote、OneDrive などが含まれます。Office 365 を使えば、リモートでチームと協働し、オンライン環境で共同作業ができます。Web 版およびデスクトップ・モバイルアプリの両方で利用可能です。",
   type: "office365_calendar",
   title: "Outlook Calendar",
   variant: "calendar",

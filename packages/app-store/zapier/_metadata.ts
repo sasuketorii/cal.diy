@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Zapier",
-  description:
-    "Workflow automation for everyone. Use the Cal.diy Zapier app to trigger your workflows when a booking is created, rescheduled, or cancelled, or after a meeting ends.",
+  description: "誰でも使えるワークフロー自動化です。Cal.diy の Zapier アプリを使って、予約の作成・予約変更・キャンセル時、またはミーティング終了後にワークフローをトリガーできます。",
   installed: true,
   category: "automation",
   categories: ["automation"],

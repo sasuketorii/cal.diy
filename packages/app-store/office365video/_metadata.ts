@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Microsoft 365/Teams (Requires work/school account)",
-  description:
-    "Microsoft Teams is a business communication platform and collaborative workspace included in Microsoft 365. It offers workspace chat and video conferencing, file storage, and application integration. Both web versions and desktop/mobile applications are available. NOTE: MUST HAVE A WORK / SCHOOL ACCOUNT",
+  description: "Microsoft Teams は Microsoft 365 に含まれるビジネスコミュニケーションプラットフォーム兼共同作業ワークスペースです。ワークスペースチャット、ビデオ会議、ファイル保存、アプリケーション連携を提供します。Web 版およびデスクトップ・モバイルアプリの両方で利用可能です。注意: 職場 / 学校アカウントが必要です。",
   appData: {
     location: {
       linkType: "dynamic",

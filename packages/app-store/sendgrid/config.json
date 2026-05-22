@@ -6,10 +6,12 @@
   "logo": "logo.png",
   "url": "https://cal.com/",
   "variant": "other_calendar",
-  "categories": ["other"],
+  "categories": [
+    "other"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
-  "description": "SendGrid delivers your transactional and marketing emails through the world's largest cloud-based email delivery platform.",
+  "description": "SendGrid は世界最大級のクラウドベースのメール配信プラットフォームを通じて、トランザクションメールやマーケティングメールを配信します。",
   "__createdUsingCli": true,
   "isOAuth": false
 }

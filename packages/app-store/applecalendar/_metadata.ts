@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Apple Calendar",
-  description:
-    "Apple calendar runs both the macOS and iOS mobile operating systems. Offering online cloud backup of calendars using Apple's iCloud service, it can sync with Google Calendar and Microsoft Exchange Server. Users can schedule events in their day that include time, location, duration, and extra notes.",
+  description: "Apple カレンダーは macOS および iOS の両モバイル OS で動作します。Apple の iCloud サービスを用いたカレンダーのクラウドバックアップを提供し、Google Calendar や Microsoft Exchange Server とも同期できます。時間・場所・所要時間・補足メモを含むイベントをスケジュールできます。",
   installed: true,
   type: "apple_calendar",
   title: "Apple Calendar",

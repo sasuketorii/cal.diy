@@ -3,8 +3,7 @@ import type { AppMeta } from "@calcom/types/App";
 export const metadata = {
   linkType: "dynamic",
   name: "Zoom Video",
-  description:
-    "Zoom is a secure and reliable video platform that supports all of your online communication needs. It can provide everything from one on one meetings, chat, phone, webinars, and large-scale online events. Available with both desktop, web, and mobile versions.",
+  description: "Zoom はセキュアで信頼性の高いビデオプラットフォームで、あらゆるオンラインコミュニケーションのニーズに対応します。1 対 1 のミーティング、チャット、電話、ウェビナー、大規模オンラインイベントまで提供できます。デスクトップ版、Web 版、モバイル版のすべてで利用可能です。",
   type: "zoom_video",
   categories: ["conferencing"],
   variant: "conferencing",

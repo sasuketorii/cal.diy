@@ -11,7 +11,7 @@
   ],
   "publisher": "Pipedream, Inc.",
   "email": "support@pipedream.com",
-  "description": "Connect APIs, remarkably fast. Stop writing boilerplate code, struggling with authentication and managing infrastructure. Start connecting APIs with code-level control when you need it — and no code when you don't",
+  "description": "API 連携を圧倒的なスピードで実現します。ボイラープレートの記述、認証の苦労、インフラ管理から解放されます。必要なときはコードレベルで制御し、不要なときはノーコードで API を接続できます。",
   "__createdUsingCli": true,
   "isOAuth": false,
   "externalLink": {

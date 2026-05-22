@@ -3,8 +3,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Stripe",
-  description:
-    "A Saas company a payment processing software, and application programming interfaces for e-commerce websites and mobile applications.",
+  description: "SaaS 企業として、決済処理ソフトウェアと、EC サイトやモバイルアプリ向けの API を提供します。",
   installed: !!(
     process.env.STRIPE_CLIENT_ID &&
     process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY &&
