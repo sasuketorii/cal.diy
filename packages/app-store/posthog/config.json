@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://posthog.com",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
-  "description": "PostHog is the all-in-one platform for building better products - with product analytics, feature flags, session recordings, a/b testing, heatmaps, and more.",
+  "description": "PostHog はより良いプロダクトを構築するためのオールインワンプラットフォームです。プロダクト分析、機能フラグ、セッションリプレイ、A/B テスト、ヒートマップなどを備えています。",
   "extendsFeature": "EventType",
   "appData": {
     "tag": {

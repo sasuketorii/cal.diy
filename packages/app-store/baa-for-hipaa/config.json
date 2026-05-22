@@ -11,7 +11,7 @@
   ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "Request a signed Business Associate Agreement for your HIPAA compliance records",
+  "description": "HIPAA コンプライアンス記録のための署名済み Business Associate Agreement (BAA) をリクエストします。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app",

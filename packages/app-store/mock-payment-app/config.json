@@ -6,10 +6,12 @@
   "logo": "icon.svg",
   "url": "https://example.com/link",
   "variant": "payment",
-  "categories": ["payment"],
+  "categories": [
+    "payment"
+  ],
   "publisher": "Intuita",
   "email": "greg@intuita.io",
-  "description": "The mock payment app for tests",
+  "description": "テスト用のモック決済アプリです。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "basic",

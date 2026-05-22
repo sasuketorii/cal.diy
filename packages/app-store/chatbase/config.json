@@ -11,7 +11,7 @@
   ],
   "publisher": "Chatbase",
   "email": "sandra@chatbase.co",
-  "description": "Add [Cal.diy](https://cal.com/) to your Chatbase AI Chatbot and accept bookings right inside chat.",
+  "description": "[Cal.diy](https://cal.com/) を Chatbase AI チャットボットに追加し、チャット内で予約を受け付けられます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app",

@@ -6,10 +6,12 @@
   "logo": "icon.svg",
   "url": "https://example.com/link",
   "variant": "other",
-  "categories": ["other"],
+  "categories": [
+    "other"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "It is a template for an app that can be installed and provides no other feature.",
+  "description": "インストール可能で、ほかに機能を持たないアプリ用のテンプレートです。",
   "isTemplate": true,
   "__createdUsingCli": true,
   "__template": "link-as-an-app"

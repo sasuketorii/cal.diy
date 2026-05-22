@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://jellyjelly.com",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Jelly",
   "email": "support@jellyjelly.com",
   "appData": {
@@ -16,7 +18,7 @@
       "linkType": "dynamic"
     }
   },
-  "description": "JellyPhone is a video calling tool with a stacked rolodex. You can cut short podcasts for Tik Tok and Instagram and publish in seconds. Connect with amazing people.",
+  "description": "JellyPhone は充実した連絡先機能を備えたビデオ通話ツールです。ポッドキャストを TikTok や Instagram 向けに短く切り出し、数秒で公開できます。素晴らしい人たちとつながれます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "event-type-location-video-static"

@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Giphy",
-  description:
-    "GIPHY is your top source for the best & newest GIFs & Animated Stickers online. Find everything from funny GIFs, reaction GIFs, unique GIFs and more.",
+  description: "GIPHY は最高で最新の GIF とアニメーションステッカーを集めた一大ソースです。面白い GIF、リアクション GIF、ユニークな GIF など、あらゆる種類が見つかります。",
   installed: true,
   categories: ["other"],
   logo: "icon.svg",

@@ -6,10 +6,12 @@
   "logo": "icon-dark.svg",
   "url": "https://app.telli.com/",
   "variant": "automation",
-  "categories": ["automation"],
+  "categories": [
+    "automation"
+  ],
   "publisher": "telli technologies GmbH",
   "email": "founders@telli.so",
-  "description": "telli AI agents reach your customers, make calls independently & enhance your customer experience - fully integrated into [Cal.diy](https://cal.com).",
+  "description": "telli の AI エージェントが顧客にコンタクトし、自律的に通話を行い、顧客体験を向上させます。[Cal.diy](https://cal.com) と完全に連携しています。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app",

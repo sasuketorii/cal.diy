@@ -6,10 +6,12 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "messaging",
-  "categories": ["messaging"],
+  "categories": [
+    "messaging"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "Schedule a chat with your guests or have a Telegram Video call.",
+  "description": "ゲストとのチャットをスケジュールしたり、Telegram でビデオ通話を行えます。",
   "__createdUsingCli": true,
   "appData": {
     "location": {

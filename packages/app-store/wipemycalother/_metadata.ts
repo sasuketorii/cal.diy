@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "WipeMyCal",
-  description:
-    "Wipe My Cal is a Cal.diy exclusive app that redefines what it looks like to reschedule multiple meetings at the same time. Simply install the app, and select 'Wipe' for whatever date you need to mass reschedule. Handle emergencies, unexpected sick days and last minute events with the simple click of a button.",
+  description: "Wipe My Cal は Cal.diy 限定アプリで、複数のミーティングを同時に予約変更する体験を再定義します。アプリをインストールし、一括で予約変更したい日付に対して「Wipe」を選択するだけです。緊急事態、突然の体調不良、直前のイベントにも、ボタン 1 つで対応できます。",
   installed: true,
   category: "automation",
   categories: ["automation"],

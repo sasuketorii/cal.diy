@@ -6,10 +6,12 @@
   "logo": "icon.jpeg",
   "url": "https://www.caretta.so/",
   "variant": "automation",
-  "categories": ["automation"],
+  "categories": [
+    "automation"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "pavlos@caretta.so",
-  "description": "Realtime Sales AI",
+  "description": "リアルタイム営業 AI。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "externalLink": {

@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "CalDav (Beta)",
-  description:
-    "Caldav is a protocol that allows different clients/servers to access scheduling information on remote servers as well as schedule meetings with other users on the same server or other servers. It extends WebDAV specification and uses iCalendar format for the data.",
+  description: "CalDAV は、異なるクライアントやサーバーがリモートサーバー上のスケジュール情報にアクセスし、同一サーバーや他サーバーのユーザーとミーティングをスケジュールできるようにするプロトコルです。WebDAV 仕様を拡張し、データには iCalendar 形式を用います。",
   installed: true,
   type: "caldav_calendar",
   title: "CalDav (Beta)",

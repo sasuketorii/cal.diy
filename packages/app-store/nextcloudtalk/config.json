@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://nextcloud.com/talk",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Cal.diy",
   "email": "help@cal.com",
   "appData": {
@@ -16,7 +18,7 @@
       "linkType": "dynamic"
     }
   },
-  "description": "Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.",
+  "description": "Nextcloud Talk は完全セルフホスト、オンプレミスで動作する音声・ビデオ・チャットのコミュニケーションサービスです。Web およびモバイルアプリを提供し、使いやすさを保ちながら最高水準のセキュリティを実現するよう設計されています。",
   "isTemplate": false,
   "__createdUsingCli": true
 }

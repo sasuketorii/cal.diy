@@ -6,10 +6,12 @@
   "logo": "icon.svg",
   "url": "https://github.com/vejnoe",
   "variant": "other",
-  "categories": ["other"],
+  "categories": [
+    "other"
+  ],
   "publisher": "Andreas Vejnø Andersen",
   "email": "info@vejnoe.dk",
-  "description": "Get the local weather forecast with icons in your calendar\r\r",
+  "description": "ローカルの天気予報をアイコン付きでカレンダーに表示します。",
   "__createdUsingCli": true,
   "isOAuth": false
 }

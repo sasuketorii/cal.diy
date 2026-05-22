@@ -11,7 +11,7 @@
   ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "The world's fastest calendar, beautifully designed for a remote world\r",
+  "description": "リモート時代のために美しく設計された、世界最速のカレンダーです。",
   "__createdUsingCli": true,
   "dependencies": [
     "google-calendar"

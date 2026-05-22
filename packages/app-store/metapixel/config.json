@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://github.com/regexyl",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Regina Liu",
   "email": "info@regexyl.com",
-  "description": "Add Meta Pixel to your bookings page to measure, optimize and build audiences for your ad campaigns.",
+  "description": "予約ページに Meta Pixel を追加して、広告キャンペーンの計測・最適化・オーディエンス構築を行います。",
   "extendsFeature": "EventType",
   "isTemplate": false,
   "__createdUsingCli": true,

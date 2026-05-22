@@ -11,7 +11,7 @@
   ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "The joyful productivity app\r\r",
+  "description": "楽しさを大切にした生産性向上アプリ。",
   "__createdUsingCli": true,
   "dependencies": [
     "google-calendar"

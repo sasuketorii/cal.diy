@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
-  "description": "Twipla.com, formerly known as Visitor Analytics, is a website intelligence platform that helps you understand how visitors interact with your website.",
+  "description": "Twipla.com (旧 Visitor Analytics) は、訪問者が自分の Web サイトとどのように関わっているかを理解するためのサイトインテリジェンスプラットフォームです。",
   "extendsFeature": "EventType",
   "appData": {
     "tag": {

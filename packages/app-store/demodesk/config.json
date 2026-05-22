@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://demodesk.com",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
   "appData": {
@@ -18,7 +20,7 @@
       "urlRegExp": "^http(s)?:\\/\\/(www\\.)?demodesk.com\\/[a-zA-Z0-9]*"
     }
   },
-  "description": "Run Professional Video Meetings, Coach Sales Teams in Real-Time with AI, And Schedule Meetings on Auto-Pilot. 100% GDPR Compliant, Enterprise Ready.",
+  "description": "プロフェッショナルなビデオミーティングの実施、AI によるリアルタイムでの営業チームコーチング、自動でのミーティング設定が可能です。100% GDPR 準拠、エンタープライズ対応。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "event-type-location-video-static"

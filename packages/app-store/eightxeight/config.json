@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://github.com/shivamklr",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Shivam Kalra",
   "email": "shivamkalra98@gmail.com",
   "appData": {
@@ -18,7 +20,7 @@
       "urlRegExp": "^(http|https)://(www\\.)?8x8.vc/[a-zA-Z0-9]*"
     }
   },
-  "description": "The best video conferencing solution for businesses of any size. Fully secure, reliable, packed with features and ridiculously simple to use.\r\r",
+  "description": "あらゆる規模のビジネスに最適なビデオ会議ソリューションです。完全にセキュアで信頼性が高く、機能も充実しており、驚くほど簡単に使えます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "event-type-location-video-static",

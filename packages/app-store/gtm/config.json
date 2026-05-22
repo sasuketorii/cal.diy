@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://tagmanager.google.com",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Black Lemon",
   "email": "support@blacklemon.dk",
-  "description": "App to install Google Tag Manager",
+  "description": "Google タグマネージャーをインストールするためのアプリです。",
   "extendsFeature": "EventType",
   "appData": {
     "tag": {

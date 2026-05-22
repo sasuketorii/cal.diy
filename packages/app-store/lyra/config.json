@@ -7,10 +7,12 @@
   "logo": "icon.svg",
   "url": "https://lyra.so/",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Lyra",
   "email": "support@lyra.so",
-  "description": "The meeting platform built for pros.",
+  "description": "プロフェッショナルのために作られたミーティングプラットフォームです。",
   "isOAuth": true,
   "appData": {
     "location": {

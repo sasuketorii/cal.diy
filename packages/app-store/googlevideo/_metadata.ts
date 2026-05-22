@@ -4,8 +4,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Google Meet",
-  description:
-    "Google Meet is Google's web-based video conferencing platform, designed to compete with major conferencing platforms.",
+  description: "Google Meet は Google が提供する Web ベースのビデオ会議プラットフォームで、主要な会議プラットフォームに対抗するために設計されています。",
   installed: !!(process.env.GOOGLE_API_CREDENTIALS && validJson(process.env.GOOGLE_API_CREDENTIALS)),
   slug: "google-meet",
   category: "conferencing",

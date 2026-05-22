@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://cal.com",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
   "extendsFeature": "EventType",
@@ -22,7 +24,7 @@
       ]
     }
   },
-  "description": "Fathom Analytics provides simple, privacy-focused website analytics. We're a GDPR-compliant, Google Analytics alternative.",
+  "description": "Fathom Analytics はシンプルでプライバシー重視のサイト分析を提供します。GDPR 準拠の Google Analytics 代替です。",
   "__createdUsingCli": true,
   "isOAuth": false
 }

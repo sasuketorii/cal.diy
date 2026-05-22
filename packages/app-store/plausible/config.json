@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
   "extendsFeature": "EventType",
@@ -22,7 +24,7 @@
       ]
     }
   },
-  "description": "Simple, privacy-friendly Google Analytics alternative.",
+  "description": "シンプルでプライバシーに配慮した Google Analytics の代替サービスです。",
   "__createdUsingCli": true,
   "isOAuth": false
 }

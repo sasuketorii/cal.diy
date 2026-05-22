@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://example.com/link",
   "variant": "other",
-  "categories": ["other"],
+  "categories": [
+    "other"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "A template showcasing how an app with EventType AppCard can be built e.g. Giphy, QR Code",
+  "description": "EventType AppCard を持つアプリ (例: Giphy、QR コード) の構築方法を示すテンプレートです。",
   "extendsFeature": "EventType",
   "isTemplate": true,
   "__createdUsingCli": true

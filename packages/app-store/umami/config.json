@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
-  "description": "Umami makes it easy to collect, analyze, and understand your web data — while maintaining visitor privacy and data ownership.",
+  "description": "Umami は、訪問者のプライバシーとデータ所有権を保ちながら、Web データの収集・分析・理解を簡単に行えるようにします。",
   "extendsFeature": "EventType",
   "appData": {
     "tag": {

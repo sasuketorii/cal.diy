@@ -6,11 +6,13 @@
   "logo": "zohobigin.svg",
   "url": "https://github.com/ShaneMaglangit",
   "variant": "crm",
-  "categories": ["crm"],
+  "categories": [
+    "crm"
+  ],
   "extendsFeature": "EventType",
   "publisher": "Shane Maglangit",
   "email": "help@cal.com",
-  "description": "Bigin easily transforms your day-to-day customer processes into actionable pipelines. From qualifying leads to closing deals to managing important after-sales operations—Bigin connects your different teams to work together so that you can offer the best possible experience to your customers. Say goodbye to missing follow-ups, manual data entry, lack of team communication, and information silos.",
+  "description": "Bigin は日々の顧客対応業務を実行可能なパイプラインに簡単に変換します。リードの選別から商談のクロージング、重要なアフターセールス業務の管理まで、Bigin が各チームを連携させ、顧客に可能な限り最高の体験を提供できるようにします。フォローアップ漏れ、手作業のデータ入力、チーム間のコミュニケーション不足、情報のサイロ化とお別れしましょう。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "basic",

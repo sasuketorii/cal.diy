@@ -10,12 +10,13 @@
     "newTab": true
   },
   "variant": "automation",
-  "categories": ["automation"],
+  "categories": [
+    "automation"
+  ],
   "publisher": "Famulor",
   "email": "support@famulor.io",
-  "description": "AI voice agents with seamless Cal.com scheduling integration.",
+  "description": "Cal.com とのシームレスなスケジューリング連携を備えた AI 音声エージェントです。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app"
 }
-

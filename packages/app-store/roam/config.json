@@ -6,7 +6,9 @@
   "logo": "icon.png",
   "url": "https://ro.am",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Roam HQ, Inc.",
   "email": "support@ro.am",
   "appData": {
@@ -18,7 +20,7 @@
       "urlRegExp": "^http(s)?:\\/\\/(www\\.)?ro.am\\/[a-zA-Z0-9]*"
     }
   },
-  "description": "Roam is Your Whole Company in one HQ\r",
+  "description": "Roam は会社全体を 1 つの本社に集約します。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "event-type-location-video-static"

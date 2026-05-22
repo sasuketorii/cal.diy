@@ -11,7 +11,7 @@
   ],
   "publisher": "Millis AI",
   "email": "thach@millis.ai",
-  "description": "Build next-gen voice agents with 500ms latency\r",
+  "description": "500ms のレイテンシで次世代の音声エージェントを構築できます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app",

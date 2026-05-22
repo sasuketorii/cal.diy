@@ -6,11 +6,13 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "other",
-  "categories": ["other"],
+  "categories": [
+    "other"
+  ],
   "extendsFeature": "EventType",
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "Easily generate a QR code for your links to print, share, or embed.",
+  "description": "リンク用の QR コードを簡単に生成し、印刷、共有、埋め込みに利用できます。",
   "__createdUsingCli": true,
   "isOAuth": false
 }

@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
-  "description": "Insihts is an all-in-one platform for businesses looking to track user behavior, optimize workflows, and make data-driven decisions. Whether you are a marketer, product manager, or part of a customer success team, Insihts provides the tools you need to succeed.",
+  "description": "Insihts はユーザー行動の追跡、ワークフロー最適化、データドリブンな意思決定を行いたい企業向けのオールインワンプラットフォームです。マーケター、プロダクトマネージャー、カスタマーサクセスチームのいずれであっても、成功に必要なツールを提供します。",
   "extendsFeature": "EventType",
   "appData": {
     "tag": {

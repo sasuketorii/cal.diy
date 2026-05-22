@@ -7,10 +7,12 @@
   "logo": "icon.svg",
   "url": "https://sylaps.com",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Sylaps Inc",
   "email": "support@sylaps.com",
-  "description": "Free Audio and Video Conferencing, Online Collaboration, Screen Sharing on web browser, mobile and desktop.",
+  "description": "無料の音声・ビデオ会議、オンラインコラボレーション、画面共有を Web ブラウザ、モバイル、デスクトップで利用できます。",
   "__createdUsingCli": true,
   "appData": {
     "location": {

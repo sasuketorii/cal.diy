@@ -6,10 +6,12 @@
   "logo": "icon.svg",
   "url": "https://getalby.com",
   "variant": "payment",
-  "categories": ["payment"],
+  "categories": [
+    "payment"
+  ],
   "publisher": "Alby",
   "email": "support@getalby.com",
-  "description": "Your Bitcoin & Nostr companion for the web. Use Alby to charge Satoshi for your [Cal.diy](https://cal.com) meetings.\r",
+  "description": "Web 向けの Bitcoin & Nostr コンパニオン。Alby を使うと [Cal.diy](https://cal.com) のミーティングに対して Satoshi を請求できます。",
   "extendsFeature": "EventType",
   "isTemplate": false,
   "__createdUsingCli": true,

@@ -6,10 +6,12 @@
   "logo": "icon-dark.svg",
   "url": "https://cal.com/",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "Video meetings made for music.\rCreate your own virtual music classroom, easily.",
+  "description": "音楽のためのビデオミーティングです。自分専用のバーチャル音楽教室を簡単に作成できます。",
   "__createdUsingCli": true,
   "appData": {
     "location": {

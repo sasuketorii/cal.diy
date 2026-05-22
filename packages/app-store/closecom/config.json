@@ -7,11 +7,13 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "crm",
-  "categories": ["crm"],
+  "categories": [
+    "crm"
+  ],
   "publisher": "Cal.com, Inc.",
   "extendsFeature": "EventType",
   "email": "help@cal.com",
-  "description": "Close is the inside sales CRM of choice for startups and SMBs. Make more calls, send more emails and close more deals starting today.",
+  "description": "Close はスタートアップや中小企業向けに選ばれているインサイドセールス CRM です。今日から、より多くの電話、メール、そして成約を実現します。",
   "__createdUsingCli": true,
   "isOAuth": true,
   "dirName": "closecom"

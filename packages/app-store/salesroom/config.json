@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://salesroom.com/",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
   "appData": {
@@ -18,7 +20,7 @@
       "urlRegExp": "^https:\\/\\/.+\\.sr\\.chat"
     }
   },
-  "description": "Unlock real-time AI and take your sales game to the next level",
+  "description": "リアルタイム AI を活用し、営業活動を次のレベルへ引き上げます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "event-type-location-video-static"

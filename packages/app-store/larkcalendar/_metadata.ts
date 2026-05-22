@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Lark Calendar",
-  description:
-    "Lark Calendar is a time management and scheduling service developed by Lark. Allows users to create and edit events, with options available for type and time. Available to anyone that has a Lark account on both mobile and web versions.",
+  description: "Lark カレンダーは Lark が開発したタイムマネジメント・スケジューリングサービスです。種類や時間を選択しながらイベントを作成・編集できます。Lark アカウントを持つすべてのユーザーが、モバイル版・Web 版の両方で利用できます。",
   installed: true,
   type: "lark_calendar",
   title: "Lark Calendar",

@@ -11,7 +11,7 @@
   ],
   "publisher": "fonio GmbH",
   "email": "info@fonio.ai",
-  "description": "Der KI-Telefonassistent auf Deutsch\r",
+  "description": "ドイツ語対応の AI 電話アシスタントです。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app",

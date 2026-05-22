@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://example.com/link",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "It is a template demoing a Booking Pages tracking app like GA4, Fathom and Plausible.",
+  "description": "GA4、Fathom、Plausible のような予約ページ計測アプリのデモ用テンプレートです。",
   "extendsFeature": "EventType",
   "appData": {
     "tag": {

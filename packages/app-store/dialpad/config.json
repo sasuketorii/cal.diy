@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://meetings.dialpad.com/",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Cal.diy",
   "email": "help@cal.com",
   "appData": {
@@ -18,7 +20,7 @@
       "urlRegExp": "^https:\\/\\/meetings\\.dialpad\\.com\\/[a-zA-Z0-9._-]+$"
     }
   },
-  "description": "A new way to meet, with built-in Ai",
+  "description": "AI を標準搭載した、新しいミーティングの形。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "event-type-location-video-static"

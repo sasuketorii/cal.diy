@@ -11,7 +11,7 @@
   ],
   "publisher": "Framer B.V.",
   "email": "benjamin@framer.com",
-  "description": "Add Cal.diy to Framer, the design tool for websites. Design freely, publish fast, and scale with CMS, SEO, analytics, and more.",
+  "description": "Web サイト用デザインツール Framer に Cal.diy を追加します。自由にデザインし、すばやく公開し、CMS・SEO・分析機能などで拡張できます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app",

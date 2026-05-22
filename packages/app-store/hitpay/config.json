@@ -6,10 +6,12 @@
   "logo": "icon.svg",
   "url": "https://hitpayapp.com",
   "variant": "payment",
-  "categories": ["payment"],
+  "categories": [
+    "payment"
+  ],
   "publisher": "HitPay",
   "email": "support@hit-pay.com",
-  "description": "HitPay's Cal.diy payment integration combines powerful scheduling with seamless local payment acceptance. Our online scheduling software integration is built for customers in APAC, supporting their favorite e-wallets and banking apps.",
+  "description": "HitPay の Cal.diy 決済連携は、強力なスケジューリングとシームレスなローカル決済を組み合わせます。本オンラインスケジューリング連携は APAC のユーザー向けに構築されており、よく使われる電子ウォレットや銀行アプリに対応します。",
   "extendsFeature": "EventType",
   "isTemplate": false,
   "__createdUsingCli": true,

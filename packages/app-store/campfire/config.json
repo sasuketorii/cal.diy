@@ -6,10 +6,12 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
-  "description": "Feel connected with your remote team. Team events, new hire onboardings, coffee chats, all on Campfire. No more awkward Zoom calls.\r\r",
+  "description": "リモートチームとのつながりを感じられます。チームイベント、新入社員のオンボーディング、コーヒーチャットをすべて Campfire で。気まずい Zoom 通話とはお別れです。",
   "__createdUsingCli": true,
   "appData": {
     "location": {

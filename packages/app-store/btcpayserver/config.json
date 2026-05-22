@@ -5,10 +5,12 @@
   "logo": "icon.svg",
   "url": "https://btcpayserver.org",
   "variant": "payment",
-  "categories": ["payment"],
+  "categories": [
+    "payment"
+  ],
   "publisher": "BTCPay Server Team",
   "email": "chat.btcpayserver.org",
-  "description": "BTCPay Server is a self-hosted open source Bitcoin payment processor. Start receiving bitcoin payments for your events and bookings.",
+  "description": "BTCPay Server はセルフホスト型のオープンソース Bitcoin 決済プロセッサです。イベントや予約に対する Bitcoin 決済の受け取りを始められます。",
   "extendsFeature": "EventType",
   "isTemplate": false,
   "__createdUsingCli": true,

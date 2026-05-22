@@ -6,10 +6,12 @@
   "type": "ics-feed_calendar",
   "logo": "icon.svg",
   "variant": "calendar",
-  "categories": ["calendar"],
+  "categories": [
+    "calendar"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "help@cal.com",
-  "description": "Import events from an ICS Feed into [Cal.diy](https://cal.com).",
+  "description": "ICS フィードのイベントを [Cal.diy](https://cal.com) に取り込みます。",
   "isTemplate": false,
   "__createdUsingCli": true
 }

@@ -6,10 +6,12 @@
   "logo": "icon.png",
   "url": "https://shimmer.care",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Shimmer.care",
   "email": "support@shimmer.care",
-  "description": "The #1 Expert ADHD Coach. Weekly calls and in-app support so that you can reach your full potential",
+  "description": "ADHD 専門のエキスパートコーチで業界 No.1。毎週の通話とアプリ内サポートで、あなたが本来の力を発揮できるよう支援します。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "basic",

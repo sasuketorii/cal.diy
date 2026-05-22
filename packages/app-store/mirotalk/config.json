@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://cal.com/",
   "variant": "conferencing",
-  "categories": ["conferencing"],
+  "categories": [
+    "conferencing"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
   "appData": {
@@ -18,7 +20,7 @@
       "urlRegExp": "^(http|https):\\/\\/(p2p|sfu)\\.mirotalk\\.com\\/join\\/[a-zA-Z0-9._-]+$"
     }
   },
-  "description": "Peer to peer real-time video conferences, optimized for small groups. Unlimited time, unlimited rooms each having 5-8 participants.",
+  "description": "少人数向けに最適化された P2P リアルタイムビデオ会議です。時間無制限、ルーム数無制限で、各ルームに 5〜8 人の参加者を収容できます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "event-type-location-video-static",

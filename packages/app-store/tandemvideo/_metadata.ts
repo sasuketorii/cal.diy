@@ -2,8 +2,7 @@ import type { AppMeta } from "@calcom/types/App";
 
 export const metadata = {
   name: "Tandem Video",
-  description:
-    "Tandem is a new virtual office space that allows teams to effortlessly connect as though they are in a physical office, online. Through co-working rooms, available statuses, live real-time video call, and chat options, you can see who's around, talk and collaborate in one click. It works cross-platform with both desktop and mobile versions.",
+  description: "Tandem は、まるで物理オフィスにいるかのようにオンラインでチームをつなぐ、新しいバーチャルオフィス空間です。コワーキングルーム、対応可否ステータス、リアルタイムのビデオ通話、チャットなどを通じて、誰がいるかを確認しながら 1 クリックで会話・共同作業ができます。デスクトップ版とモバイル版の両方に対応したクロスプラットフォームです。",
   type: "tandem_video",
   title: "Tandem Video",
   variant: "conferencing",

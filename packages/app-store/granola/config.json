@@ -11,7 +11,7 @@
   ],
   "publisher": "Granola inc",
   "email": "hey@granola.so",
-  "description": "The AI notepad for people in back-to-back meetings for MacOS",
+  "description": "ミーティングが連続する人のための macOS 向け AI ノートアプリです。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app",

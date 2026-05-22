@@ -6,7 +6,9 @@
   "logo": "icon.svg",
   "url": "https://github.com/vachmara",
   "variant": "analytics",
-  "categories": ["analytics"],
+  "categories": [
+    "analytics"
+  ],
   "publisher": "Valentin Chmara",
   "email": "valentinchmara@gmail.com",
   "extendsFeature": "EventType",
@@ -23,7 +25,7 @@
       ]
     }
   },
-  "description": "Privacy-first web analytics for devs (Google Analytics alternative) — 3 KB, GDPR-compliant",
+  "description": "開発者向けプライバシー重視 Web 分析 (Google Analytics 代替) — 3 KB、GDPR 準拠。",
   "__createdUsingCli": true,
   "isOAuth": false
 }

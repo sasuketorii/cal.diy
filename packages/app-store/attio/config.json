@@ -6,10 +6,12 @@
   "logo": "icon-dark.svg",
   "url": "/apps/installed/crm",
   "variant": "crm",
-  "categories": ["crm"],
+  "categories": [
+    "crm"
+  ],
   "publisher": "Cal.com, Inc.",
   "email": "support@cal.com",
-  "description": "Attio is the AI-native CRM that builds, scales and grows your company to the next level.",
+  "description": "Attio は AI ネイティブの CRM で、会社の構築・スケール・成長を次のレベルに引き上げます。",
   "isTemplate": false,
   "__createdUsingCli": true,
   "__template": "link-as-an-app"

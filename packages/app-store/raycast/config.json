@@ -11,7 +11,7 @@
   ],
   "publisher": "Eric Luce",
   "email": "info@restlessmindstech.com",
-  "description": "Quickly share your [Cal.diy](https://cal.com) meeting links with Raycast",
+  "description": "Raycast から [Cal.diy](https://cal.com) のミーティングリンクをすばやく共有できます。",
   "__createdUsingCli": true,
   "isOAuth": false,
   "externalLink": {
